@@ -51,9 +51,9 @@ An MCP server that tracks newly created liquidity pools on Pancake Swap, providi
 
 Run the server in development mode to test it locally:
 ```bash
-mcp dev pancakeswap_poolspy_mcp.py
+mcp dev main.py
 ```
-This launches the MCP Inspector, where you can interact with the `get_new_pools` tool.
+This launches the MCP Inspector, where you can interact with the `get_new_pools_bsc` tool.
 
 ### Available Tool
 
