@@ -1,7 +1,7 @@
 [project]
-name = "pancakeswap-pairspy-mcp"
+name = "pancakeswap-poolspy-mcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "An MCP server that tracks newly created liquidity pools on Pancake Swap"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
