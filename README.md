@@ -4,6 +4,7 @@ An MCP server that tracks newly created liquidity pools on Pancake Swap, providi
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.10+-yellow.svg)](https://www.python.org/)
+[![smithery badge](https://smithery.ai/badge/@kukapay/pancakeswap-poolspy-mcp)](https://smithery.ai/server/@kukapay/pancakeswap-poolspy-mcp)
 
 ## Features
 
@@ -17,6 +18,14 @@ An MCP server that tracks newly created liquidity pools on Pancake Swap, providi
 - **The Graph API Key**: Obtain an API key from [The Graph](https://thegraph.com/) to access the PancakeSwap subgraph.
 
 ## Installation
+
+### Installing via Smithery
+
+To install PancakeSwap PoolSpy for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/pancakeswap-poolspy-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/pancakeswap-poolspy-mcp --client claude
+```
 
 1. **Clone the Repository**:
    ```bash
